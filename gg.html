@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="background-color:Goldenrod;">
+    <h1 style="text-align:center;">Registration Form</h1> 
+    <form>
+        <table cellpadding="5">
+            <tr>
+                <td>First Name :</td>
+                <td><input type="text" name="firstName" placeholder="Aditya" required></td>
+            </tr>
+            <tr>
+                <td>Last Name :</td>
+                <td><input type="text" name="lastName" placeholder="Upadhyay" required></td>
+            </tr>
+            <tr>
+                <td>Father's Name :</td>
+                <td><input type="text" name="fatherName"></td>
+            </tr>
+            <tr>
+                <td>Mother's Name :</td>
+                <td><input type="text" name="motherName"></td>
+            </tr>
+            <tr>
+                <td>Date of birth :</td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other">Others
+                </td>
+            </tr>
+            <tr>
+                <td>Choose Course :</td>
+                <td>
+                    <select name="course">
+                        <option value=""></option>Select an Option</option>
+                        <option value="CSE">CSE</option>
+                        <option value="ECE">ECE</option>
+                        <option value="AIML">AIML</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies :</td>
+                <td>
+                    <input type="checkbox" name="hobbies" value="singing"> Singing
+                    <input type="checkbox" name="hobbies" value="travelling"> Travelling
+                    <input type="checkbox" name="hobbies" value="reading"> Reading
+                </td>
+            </tr>
+            <tr>
+                <td>Address :</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <TD>choose a image </TD>
+                <td><input type="file" name="image"></td>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+        <button >Submit</button>
+        <button >Reset</button>
+    </form>
+</body>
+</html>
