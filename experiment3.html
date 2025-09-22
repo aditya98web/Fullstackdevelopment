@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalog</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .header-row th {
+            text-align: center;
+        }
+
+        .logo-column {
+            width: 10%;
+        }
+
+        .book-details {
+            width: 40%;
+        }
+
+        .price-column {
+            width: 10%;
+        }
+
+        .add-to-cart-column {
+            width: 15%;
+            text-align: center;
+        }
+
+        .add-to-cart-btn {
+            background-color: #f0c14b;
+            border: 1px solid #a88734;
+            color: #111;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        .book-image {
+            width: 50px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>CATALOGUE PAGE: The catalogue page should contain the details of all the books available in the website in a table. The details should contain the following:</h2>
+    <ol>
+        <li>Snap shot of Cover Page.</li>
+        <li>Author Name.</li>
+        <li>Publisher.</li>
+        <li>Price.</li>
+        <li>Add to cart button.</li>
+    </ol>
+    <hr>
+    
+    <table>
+        <tr class="header-row">
+            <th colspan="2">Logo</th>
+            <th colspan="2">WebSite Name</th>
+            <th>Catalogue</th>
+            <th>Cart</th>
+        </tr>
+        <tr>
+            <td class="logo-column">Home</td>
+            <td class="logo-column">Login</td>
+            <td class="book-details">Registration</td>
+            <td class="book-details">Catalogue</td>
+            <td class="add-to-cart-column" colspan="2">Cart</td>
+        </tr>
+        <tr>
+            <td>CSE</td>
+            <td><img src="xml.jpg" alt="XML Bible" class="book-image"></td>
+            <td colspan="2">
+                Book: *XML Bible*<br>
+                Author: Winston<br>
+                Publication: Wiely
+            </td>
+            <td class="price-column">$40.5</td>
+            <td class="add-to-cart-column">
+                <button class="add-to-cart-btn">Add to cart</button>
+            </td>
+        </tr>
+        <tr>
+            <td>ECE</td>
+            <td><img src="ai.jpeg" alt="AI Book" class="book-image"></td>
+            <td colspan="2">
+                Book: *AI*<br>
+                Author: S. Russel<br>
+                Publication: Princetonhall
+            </td>
+            <td class="price-column">$63</td>
+            <td class="add-to-cart-column">
+                <button class="add-to-cart-btn">Add to cart</button>
+            </td>
+        </tr>
+        <tr>
+            <td>EEE</td>
+            <td><img src="javaimage.jpg" alt="Java 2 Book" class="book-image"></td>
+            <td colspan="2">
+                Book: *Java 2*<br>
+                Author: Watson<br>
+                Publication: BPBpublications
+            </td>
+            <td class="price-column">$35.5</td>
+            <td class="add-to-cart-column">
+                <button class="add-to-cart-btn">Add to cart</button>
+            </td>
+        </tr>
+        <tr>
+            <td>CIVIL</td>
+            <td><img src="html24.jpeg" alt="HTML Book" class="book-image"></td>
+            <td colspan="2">
+                Book: *HTML in 24 hours*<br>
+                Author: Sam Peter<br>
+                Publication: Sampublication
+            </td>
+            <td class="price-column">$50</td>
+            <td class="add-to-cart-column">
+                <button class="add-to-cart-btn">Add to cart</button>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
